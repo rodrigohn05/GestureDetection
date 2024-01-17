@@ -1,4 +1,5 @@
-Prerequisites
+Prerequisites: 
+
 To run the code, you need access to a webcam and Python installed, preferably a version equal to or higher than 3.8. After that, you need to install the required packages with the following commands:
 
 pip install python-vlc
@@ -6,7 +7,8 @@ pip install mediapipe
 pip install opencv-python
 Note that, due to a possible error caused by using more than one video capture device/webcam, it may be necessary to modify the value of X in "cap = cv2.VideoCapture(X)" at line 70 of HandVideoControl.py and line 17 of virtualpainter.py.
 
-Running the program
+Running the program: 
+
 The code is quite easy to run; however, I've added some arguments that can be used to meet the user's needs and preferences.
 
 If you're running the code for the first time, it is advisable to run only the code in the most straightforward way after navigating to the folder where the project files are located in the command line:
